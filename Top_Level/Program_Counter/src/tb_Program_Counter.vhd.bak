@@ -1,0 +1,81 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity Program_Counter is
+end Program_Counter;
+
+architecture test of tb_Program_Counter is
+	
+	signal clk_tb		: in std_logic := '0';
+	signal rst_tb		: in std_logic := '0';
+	signal PC_in_tb		: in std_logic_vector(31 downto 0) := (others => '0');
+	signal PC_out_tb	: out std_logic_vector(31 downto 0);
+	
+	-- Clock periyodu (10 ns = 100 MHz clock)
+    constant CLK_PERIOD : time := 10 ns;
+
+	
+component Program_Counter
+	port(
+		clk		: in std_logic;
+		rst		: in std_logic;
+		PC_in	: in std_logic_vector(31 downto 0);
+		PC_out	: out std_logic_vector(31 downto 0);
+	);
+end component;
+
+	clk_process:process
+	begin
+		while now < 100 ns loop  -- 100 ns simülasyon süresi
+            clk_tb <= '0';
+            wait for CLK_PERIOD / 2;  -- Yarı periyot
+            clk_tb <= '1';
+            wait for CLK_PERIOD / 2;
+        end loop;
+        wait;
+	end process;
+	
+	uut: Program_Counter
+	port map (
+		clk		=> clk_tb,
+		rst		=> rst_tb,
+		PC_in	=> PC_in,
+		PC_out	=> PC_out
+	);
+
+	tb_process:process
+	begin 
+
+		rst_tb		<= '0';
+		wait for CLK_PERIOD;
+		
+		rst_tb		<= '1';
+		wait for CLK_PERIOD;
+		
+		PC_in		<= x"11110000";
+		wait for CLK_PERIOD;
+		
+		PC_in		<= x"aabb0101";
+		wait for CLK_PERIOD;
+		
+		PC_in		<= x"cccc0101";
+		wait for CLK_PERIOD;
+
+		PC_in		<= x"00000101";
+		wait for CLK_PERIOD;
+		
+		rst_tb 		<= '0';
+        wait for CLK_PERIOD;
+		
+        rst_tb		<= '1';
+        wait for CLK_PERIOD;
+		
+		PC_in		<= x"12345678";
+        wait for CLK_PERIOD;
+		
+		wait;
+	end process;
+	
+	uut
+	
+end test;

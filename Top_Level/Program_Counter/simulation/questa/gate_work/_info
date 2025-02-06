@@ -1,0 +1,118 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e MIXED_VERSIONS
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/RISC_V_PROJECT/Top_Level/Program_Counter/simulation/questa
+T_opt
+!s110 1738764967
+V@527f6m8k[C?<MPUonaoE2
+04 18 4 work tb_program_counter test 1
+=1-a036bc6e3a79-67a372a7-cc-51d0
+R0
+!s12b OEM100
+!s124 OEM10U3 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L cycloneive_ver -L gate_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vhard_block
+Z3 2Program_Counter.vo
+Z4 !s110 1738764965
+!i10b 1
+!s100 fJI]YZZ1QcAV4Q5[[A:z00
+IMk1zGz^_j?hL50`lW1j;Y2
+R1
+Z5 w1738764952
+Z6 8Program_Counter.vo
+Z7 FProgram_Counter.vo
+!i122 0
+L0 2063 34
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z10 !s108 1738764965.000000
+Z11 !s107 Program_Counter.vo|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Program_Counter.vo|
+!i113 0
+Z13 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s92 -vlog01compat -work work +incdir+. -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vProgram_Counter
+R3
+R4
+!i10b 1
+!s100 b7eEGZ5MYSeo^NdF?`UJ=2
+I<mJ70DWM:l0AG9J5iMz3E3
+R1
+R5
+R6
+R7
+!i122 0
+L0 32 2030
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+n@program_@counter
+Etb_program_counter
+Z15 w1738764797
+Z16 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z17 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+R1
+Z18 8C:/RISC_V_PROJECT/Top_Level/Program_Counter/src/tb_Program_Counter.vhd
+Z19 FC:/RISC_V_PROJECT/Top_Level/Program_Counter/src/tb_Program_Counter.vhd
+l0
+L4 1
+V?N;L61k4P[]_K4`4W<RdM0
+!s100 XDcFSfHZ_Xc6JSjHUTmG62
+Z20 OL;C;2023.3;77
+31
+R4
+!i10b 1
+R10
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/RISC_V_PROJECT/Top_Level/Program_Counter/src/tb_Program_Counter.vhd|
+Z22 !s107 C:/RISC_V_PROJECT/Top_Level/Program_Counter/src/tb_Program_Counter.vhd|
+!i113 0
+Z23 o-93 -work work
+Z24 tExplicit 1 CvgOpt 0
+Atest
+DPx7 verilog 8 vl_types 0 22 P_cIh0I4AM[Slnb4Oe`Ag2
+DEx4 work 15 Program_Counter 0 22 Dg1SIo80bB@j0V0VzS_@n1
+R16
+R17
+DEx4 work 18 tb_program_counter 0 22 ?N;L61k4P[]_K4`4W<RdM0
+!i122 1
+l19
+L7 67
+V4=ojLTfSGEU@bd@AkiMKF0
+!s100 K[;?oPQzfkWn<jlefMTV=2
+R20
+31
+!s110 1738764966
+!i10b 1
+R10
+R21
+R22
+!i113 0
+R23
+R24

@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "O_INSTRUCTION[0]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[1]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[2]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[3]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[4]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[5]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[6]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[8]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[9]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[10]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[11]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[12]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[13]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[14]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[16]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[17]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[18]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[19]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[20]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[21]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[22]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[24]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[25]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[26]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[27]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[28]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[29]",
+					"strict" : false
+				},
+				{
+					"name" : "O_INSTRUCTION[30]",
+					"strict" : false
+				},
+				{
+					"name" : "I_ADDRESS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I_ADDRESS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I_ADDRESS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "I_ADDRESS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I_ADDRESS[4]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

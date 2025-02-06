@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Feb  6 18:35:31 2025
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : Instruction_Memory
+Top-level Entity Name : Instruction_Memory
+Family : Cyclone IV E
+Total logic elements : 28
+    Total combinational functions : 22
+    Dedicated logic registers : 28
+Total registers : 28
+Total pins : 65
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
