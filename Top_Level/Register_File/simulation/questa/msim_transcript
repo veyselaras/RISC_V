@@ -1,0 +1,78 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do Register_File_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/RISC_V_PROJECT/Top_Level/Register_File/src/Register_File.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:56:38 on Feb 10,2025
+# vcom -reportprogress 300 -93 -work work C:/RISC_V_PROJECT/Top_Level/Register_File/src/Register_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity REGISTER_FILE
+# -- Compiling architecture ARCH_OF_REGISTER_FILE of REGISTER_FILE
+# End time: 14:56:38 on Feb 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/RISC_V_PROJECT/Top_Level/Register_File/src/tb_Register_File.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:56:38 on Feb 10,2025
+# vcom -reportprogress 300 -93 -work work C:/RISC_V_PROJECT/Top_Level/Register_File/src/tb_Register_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TB_REGISTER_FILE
+# -- Compiling architecture TEST of TB_REGISTER_FILE
+# -- Loading package NUMERIC_STD
+# -- Loading entity REGISTER_FILE
+# ** Warning: C:/RISC_V_PROJECT/Top_Level/Register_File/src/tb_Register_File.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 14:56:38 on Feb 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  tb_Register_File
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" tb_Register_File 
+# Start time: 14:56:38 on Feb 10,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_register_file(test)#1
+# Loading work.register_file(arch_of_register_file)#1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Causality operation skipped due to absence of debug database file
+# Break key hit
+# Break in Process CLK_GEN at C:/RISC_V_PROJECT/Top_Level/Register_File/src/tb_Register_File.vhd line 48
+# End time: 15:06:50 on Feb 10,2025, Elapsed time: 0:10:12
+# Errors: 0, Warnings: 1

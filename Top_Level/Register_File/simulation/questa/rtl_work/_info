@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e vcom 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/RISC_V_PROJECT/Top_Level/Register_File/simulation/questa
+T_opt
+!s110 1739188600
+VRIRWI61nm9h4j<e9e4iPD2
+04 16 4 work tb_register_file test 1
+=1-009337dbd544-67a9e977-25d-1268
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+Eregister_file
+Z2 w1739188394
+Z3 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z4 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z5 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 0
+R1
+Z6 8C:/RISC_V_PROJECT/Top_Level/Register_File/src/Register_File.vhd
+Z7 FC:/RISC_V_PROJECT/Top_Level/Register_File/src/Register_File.vhd
+l0
+L5 1
+VNRoEcLCjX=c;P9fiA]:Sa2
+!s100 B2O1K0O`XW4Xj>1QBHF1d0
+Z8 OL;C;2023.3;77
+31
+Z9 !s110 1739188598
+!i10b 1
+Z10 !s108 1739188598.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/RISC_V_PROJECT/Top_Level/Register_File/src/Register_File.vhd|
+Z12 !s107 C:/RISC_V_PROJECT/Top_Level/Register_File/src/Register_File.vhd|
+!i113 0
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Aarch_of_register_file
+R3
+R4
+R5
+Z15 DEx4 work 13 register_file 0 22 NRoEcLCjX=c;P9fiA]:Sa2
+!i122 0
+l64
+L23 58
+VfGSN6DfHgjJ=1]Fk2l7FQ3
+!s100 8SDZmT1WJ[@M9LIz:<LY30
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Etb_register_file
+Z16 w1739188507
+R4
+R5
+!i122 1
+R1
+Z17 8C:/RISC_V_PROJECT/Top_Level/Register_File/src/tb_Register_File.vhd
+Z18 FC:/RISC_V_PROJECT/Top_Level/Register_File/src/tb_Register_File.vhd
+l0
+L4 1
+VZ>I7MK20LXeQkaYXJjK]Z3
+!s100 n4jeoljWF04IOAUB]C<Nf0
+R8
+31
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/RISC_V_PROJECT/Top_Level/Register_File/src/tb_Register_File.vhd|
+Z20 !s107 C:/RISC_V_PROJECT/Top_Level/Register_File/src/tb_Register_File.vhd|
+!i113 0
+R13
+R14
+Atest
+R3
+R15
+R4
+R5
+DEx4 work 16 tb_register_file 0 22 Z>I7MK20LXeQkaYXJjK]Z3
+!i122 1
+l23
+L7 114
+VQSC<zMTbkNHOXTUd;OZYI2
+!s100 7Xk@j?2GUi:bJPN^NbM4a3
+R8
+31
+R9
+!i10b 1
+R10
+R19
+R20
+!i113 0
+R13
+R14
